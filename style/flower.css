@@ -4,9 +4,17 @@ body{
 .banner{
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
-height: 850px;
-padding-left: 240px;
+    height: 850px;
+    padding: 0px 240px  0px 240px  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.banner-content{
+    max-width: 500px;
+}
+
+  
 .heading{
     color: #272727;
     font-family: Lato;
@@ -17,9 +25,48 @@ padding-left: 240px;
 }
 .btn{
     display: inline-flex;
-padding: 20px 43px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
-background: #E55473;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+.flower{
+    text-align: center;
+    background: #FFF;
+    width: 1920px;
+    height: 4867px;
+}
+.photo{
+    
+    padding-left: 240px;
+    padding-right: 240px;
+    justify-content: space-between;
+   gap: 24px;
+
+}
+.pic{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    margin-right: 10px;
+ 
+ 
+}
+.pic2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+.pic3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
 }
