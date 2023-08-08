@@ -1,0 +1,25 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+height: 850px;
+padding-left: 240px;
+}
+.heading{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+
+  
+}
+.btn{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+}
