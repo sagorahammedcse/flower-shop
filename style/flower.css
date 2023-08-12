@@ -34,8 +34,7 @@ body{
 .flower{
     text-align: center;
     background: #FFF;
-    width: 1920px;
-    height: 4867px;
+    max-width: 1920px;
 }
 .section-title{
     color: #272727;
@@ -86,14 +85,56 @@ text-decoration-line: underline;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 464px;
-height: 538px;
-flex-shrink: 0;
-margin-right: 10px;
+    height: 538px;
+    flex-shrink: 0;
+    margin-right: 10px;
 }
 .pic3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 464px;
-height: 538px;
-flex-shrink: 0;
+    height: 538px;
+    flex-shrink: 0;
 }
+.pic4{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    margin: 150px 240px 150px 240px;
+    padding: 86px 320px 100px 332px;
+
+}
+.pic5{
+    width: 88px;
+    height: 88px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 86px 320px px 332px;
+
+}
+.pic6{
+    width: 88px;
+    height: 88px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+.pic7{
+    width: 88px;
+    height: 88px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+
