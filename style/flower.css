@@ -37,12 +37,35 @@ body{
     width: 1920px;
     height: 4867px;
 }
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 .photo{
     
     padding-left: 240px;
     padding-right: 240px;
     justify-content: space-between;
    gap: 24px;
+   display: flex;
+   color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px; 
+text-decoration-line: underline;
+  
 
 }
 .pic{
@@ -52,6 +75,10 @@ body{
     height: 538px;
     flex-shrink: 0;
     margin-right: 10px;
+    color: #272727;
+    text-align: center;
+
+
  
  
 }
