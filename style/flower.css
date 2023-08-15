@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .banner-content{
     max-width: 500px;
 }
@@ -24,12 +25,11 @@ body{
   
 }
 .btn{
-    display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
-    border-radius: 8px;
     background: #E55473;
+    text-align: center;
 }
 .flower{
     text-align: center;
@@ -50,6 +50,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+
 }
 .photo{
     
@@ -100,8 +101,8 @@ body{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
-    width: 1440px;
-    height: 320px;
+    width: 1040px;
+    height: 220px;
     margin: 150px 240px 150px 240px;
     padding: 86px 320px 100px 332px;
 
@@ -145,6 +146,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 
 }
 .of{
@@ -153,4 +155,36 @@ body{
     font-weight: 800;
 
 }
+.btns{
+    padding: 20px 43px;
+    gap: 10px;
+    background: #E55473;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 
+}
+.finis{
+    width: 1920px;
+    height: 4867px;
+    background: #FFF;
+}
+.ss{
+    display: flex;
+    gap: 20px;
+    padding: 50px 240px 50px 440px;
+  
+}
+.ffs{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.bb{
+    ;
+}
